@@ -1,0 +1,10 @@
+{
+	dozens[int($1/10)]++
+}; 
+END { 
+#get value of 100%
+	{for (x=0;x<11;x++) total += dozens[x];}
+	{x=0; printf "  %i -  %i:  %3.3f ",x*10,x*10+9,100*dozens[x]/total; for (i=0;i<dozens[x];i++) printf"*";printf"\n"};  
+	{for (x=1;x<10;x++)  {printf " %i - %i:  %3.3f ",x*10,x*10+9,100*dozens[x]/total;for (i=0;i<dozens[x];i++) printf"*";printf"\n"} }; 
+	{x=10; printf "%i:        %3.3f ",x*10,100*dozens[x]/total ; for (i=0;i<dozens[x];i++) printf"*";printf"\n"}
+}
