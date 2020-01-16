@@ -1,0 +1,5 @@
+---
+script: "param.sh"
+subroutine: "main_replace"
+begin_patr: "{{"
+end_patr: "}}"
