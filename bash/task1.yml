@@ -1,5 +1,5 @@
 ---
 script: "param.sh"
-subroutine: "main_replace"
+subroutine: "replace"
 begin_patr: "{{"
 end_patr: "}}"

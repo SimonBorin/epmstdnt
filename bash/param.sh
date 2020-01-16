@@ -10,11 +10,6 @@
 #===============================================================================
 
 
-#===  CONSTANTS  ===============================================================
-
-MYFUNK="$0"
-
-
 #===  FUNCTIONS  ===============================================================
 
 #===  FUNCTION  ================================================================
@@ -76,33 +71,24 @@ function _result_create() {
 }
 
 #===  FUNCTION  ================================================================
-#         NAME:  main_replace
-#  DESCRIPTION:  main func: replaces vars in custom patterns to its values
+#         NAME:  replace
+#  DESCRIPTION:  replaces vars in custom patterns to its values
 #===============================================================================
 
-function main_replace(){
+function replace(){
     BEGIN_PTRN="{{"
     END_PTRN="}}"
     _template_chck $1
     _result_create $2
-    # declare -A vars
-    # while read -r line; do
-    #     val=$(echo $line | sed "s/$BEGIN_PTRN\([^$END_PTRN]*\)$END_PTRN/$\1/g")
-    #     echo $val
-    #     # vars[$line]=$line
-    #     vars[$line]=$val
-    #     done < <(cat test.txt | grep -o '{{[^}}]*}}')    
-    # for i in ${vars[@]}; do 
-    #     echo  "$i : ${vars[$i]}"
-    # done
-    # cat test.txt | grep -o '{{[^}}]*}}' > vars.txt
 
-    sed "s/$BEGIN_PTRN\([^$END_PTRN]*\)$END_PTRN/-=$\1==-/g" $TEMPLATE | envsubst > $RESULT
+    sed "s/$BEGIN_PTRN\([^$END_PTRN]*\)$END_PTRN/-=$\1=-/g" $1 | envsubst > $2
 
-    # sed "s/{{\([^}}]*\)}}/$\1/g" $TEMPLATE >> $RESULT
 }
 
-#===  END OF FUNCTIONS  ========================================================
+#===  FUNCTION  ================================================================
+#         NAME:  main
+#  DESCRIPTION:  main func
+#===============================================================================
 
 #-----------------------------------------------------------------------
 #  Handle command line arguments
@@ -110,44 +96,55 @@ function main_replace(){
 #  https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
 #  I would prefer to use getopts however it could work only with one dash in case:  h|help )  print_help ;;
 #-----------------------------------------------------------------------
+function main(){
+    MYFUNK="$0"
+    POSITIONAL=()
+    while [[ $# -gt 0 ]]
+    do
+    key="$1"
 
-POSITIONAL=()
-while [[ $# -gt 0 ]]
-do
-key="$1"
+    case $key in
+        -t|--template )
+        TEMPLATE="$2"
+        shift # past argument
+        shift # past value
+        ;;
+        -r|--result )
+        RESULT="$2"
+        shift # past argument
+        shift # past value
+        ;;
+        -h|--help)
+        _print_help
+        #shift # past argument
+        ;;
+        *)    # unknown option
+        echo "Unknown option: $1"
+        echo "Run $0 with -h for help"
+        # should add exit code
+        shift # past argument
+        exit 1
+        ;;
+    esac
+    done
+    set -- "${POSITIONAL[@]}" # restore positional parameters
 
-case $key in
-    -t|--template )
-    TEMPLATE="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -r|--result )
-    RESULT="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -h|--help)
-    _print_help
-    #shift # past argument
-    ;;
-    *)    # unknown option
-    echo "Unknown option: $1"
-    echo "Run $0 with -h for help"
-    # should add exit code
-    shift # past argument
-    exit 1
-    ;;
-esac
-done
-set -- "${POSITIONAL[@]}" # restore positional parameters
+    echo "TEMPLATE  = ${TEMPLATE}"
+    echo "RESULT    = ${RESULT}"
+    #echo "Number files in SEARCH PATH with EXTENSION:" $(ls -1 "${SEARCHPATH}"/*."${EXTENSION}" | wc -l)
+    if [[ -n $1 ]]; then
+        echo "Last line of file specified as non-opt/last argument:"
+        tail -1 "$1"
+    fi
 
-echo "TEMPLATE  = ${TEMPLATE}"
-echo "RESULT    = ${RESULT}"
-#echo "Number files in SEARCH PATH with EXTENSION:" $(ls -1 "${SEARCHPATH}"/*."${EXTENSION}" | wc -l)
-if [[ -n $1 ]]; then
-    echo "Last line of file specified as non-opt/last argument:"
-    tail -1 "$1"
+    replace $TEMPLATE $RESULT
+}
+
+#===  END OF FUNCTIONS  ========================================================
+
+if  [[ "${BASH_SOURCE[0]}" == "${0}" ]] ; then
+    echo 'main run'
+    main "$@"
+else
+    echo "lib"
 fi
-
-main_replace $TEMPLATE $RESULT
