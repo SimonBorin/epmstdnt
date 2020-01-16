@@ -116,7 +116,7 @@ function main(){
         ;;
         -h|--help)
         _print_help
-        #shift # past argument
+        shift # past argument
         ;;
         *)    # unknown option
         echo "Unknown option: $1"
