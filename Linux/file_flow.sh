@@ -39,6 +39,7 @@ function _read_config() {
     LOGDIR=$(dirname "${LOGFILENAME}")
     _dir_chck "$SOURCEDIR"
     _dir_chck "$TARGETDIR"
+    _dir_chck "$LOGDIR"
 }
 
 #===  FUNCTION  ================================================================
