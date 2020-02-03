@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #===============================================================================
 #
 #    DESCRIPTION: One of my first steps at bash scripting
