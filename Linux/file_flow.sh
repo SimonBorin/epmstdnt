@@ -36,7 +36,9 @@ function _dir_chck() { # to mv you need write and exec to folders src dst
 
 function _read_config() {
     . file_flow.config
-    echo $SOURCEDIR
+    LOGDIR=$(dirname "${LOGFILENAME}")
+    _dir_chck "$SOURCEDIR"
+    _dir_chck "$TARGETDIR"
 }
 
 #===  FUNCTION  ================================================================
@@ -45,7 +47,7 @@ function _read_config() {
 #===============================================================================
 
 function main() {
-    _read_config~
+    _read_config
 }
 
 #===  END OF FUNCTIONS  ========================================================
