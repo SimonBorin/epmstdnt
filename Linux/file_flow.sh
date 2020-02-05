@@ -97,7 +97,7 @@ function main() {
         done
         rm -rf ${LockFile}
     fi 
-    echo "Endet at $(date +'%d.%m.%Y %H:%M:%S %Z')" >> $LOGFILENAME
+    echo "Ended at $(date +'%d.%m.%Y %H:%M:%S %Z')" >> $LOGFILENAME
 }
 
 #===  END OF FUNCTIONS  ========================================================
