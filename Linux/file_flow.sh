@@ -52,9 +52,10 @@ function _mv() {
     CUR_DATE=$(date +"%Y-%m-%d %H:%M:%S")
     OBJ_NAME=$(awk 'BEGIN{FS="\t"} NR==1 {print $1}' "$1")
     OBJ_DATE=$(awk 'BEGIN{FS="\t"} NR==1 {print $2}' "$1")
-    OBJ_UUID=$(awk 'END{if (/^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}/) print $1}' second.txt)
+    OBJ_UUID=$(awk 'END{if (/^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}/) print $1}' "$1")
     OBJ_NEW_NAME="$OBJ_NAME"_"$OBJ_DATE"_"$CUR_DATE"
     if [ ! -z "$OBJ_UUID" ]&&[ ! -d "$1" ]; then
+        echo $OBJ_UUID
         cp $1 "$TARGETDIR"/"$OBJ_NEW_NAME"
         echo "!!!!!   $1 moved to $TARGETDIR and renamed to $OBJ_NEW_NAME" >> $LOGFILENAME
     else
