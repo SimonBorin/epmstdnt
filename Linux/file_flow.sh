@@ -87,8 +87,9 @@ function main() {
     else
         touch ${LockFile}
         for file in "$SOURCEDIR"/*; do
-            FILEFLOWPATH="$SOURCEDIR"/"$file"
-            _mv $FILEFLOWPATH
+            echo "this is my file ==== $file"
+            # FILEFLOWPATH="$SOURCEDIR"/"$file"
+            _mv $file
         done
         rm -rf ${LockFile}
     fi
