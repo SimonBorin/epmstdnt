@@ -60,7 +60,7 @@ function _mv() {
     else
         echo "File $1 is not redy! UUID wasn't detected" >> $LOGFILENAME
     fi 
-    
+    unset OBJ_UUID
 }
 
 #===  FUNCTION  ================================================================
@@ -92,8 +92,7 @@ function main() {
             _mv $file
         done
         rm -rf ${LockFile}
-    fi
-    
+    fi 
 }
 
 #===  END OF FUNCTIONS  ========================================================
