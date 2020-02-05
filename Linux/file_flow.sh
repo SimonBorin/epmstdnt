@@ -18,13 +18,13 @@
 function _dir_chck() { # to mv you need write and exec to folders src dst
     if [ -e "$1" ]&&[ -d "$1" ] ; then
         if [ -w "$1" ]&&[ -x "$1" ]; then
-            echo "[INFO]Folder $1 perms are ok" >> $LOGFILENAME
+            echo "[INFO]Folder $1 perms are ok" 
         else
-            echo "[ERROR]Not enough permissions at $1. Try to use sudo." >> $LOGFILENAME
+            echo "[ERROR]Not enough permissions at $1. Try to use sudo." 
             exit 1
         fi
     else 
-        echo "[ERROR]Error in filepath! $1 doesn't exist or not a directory" >> $LOGFILENAME
+        echo "[ERROR]Error in filepath! $1 doesn't exist or not a directory" 
         exit 1
     fi
 }
@@ -38,9 +38,10 @@ function _read_config() {
     CONFDIR=$(dirname "${SCRIPT_PASH}")
     . "$CONFDIR"/file_flow.config
     LOGDIR=$(dirname "${LOGFILENAME}")
+    _dir_chck "$LOGDIR"
+    touch $LOGFILENAME
     _dir_chck "$SOURCEDIR"
     _dir_chck "$TARGETDIR"
-    _dir_chck "$LOGDIR"
 }
 
 #===  FUNCTION  ================================================================
@@ -76,7 +77,6 @@ function _mv() {
 function main() {
     SCRIPT_PASH="${0}"
     _read_config
-    touch $LOGFILENAME 
     echo "Started at $(date +'%d.%m.%Y %H:%M:%S %Z')" >> $LOGFILENAME
     # cur_date=$(date +"%Y-%m-%d %H:%M:%S")
     # declare $(awk 'BEGIN{OFS="\t"} NR==1 {print OBJ_NAME=$1, OBJ_DATE=$2}' second.txt)
