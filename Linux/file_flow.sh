@@ -18,13 +18,13 @@
 function _dir_chck() { # to mv you need write and exec to folders src dst
     if [ -e "$1" ]&&[ -d "$1" ] ; then
         if [ -w "$1" ]&&[ -x "$1" ]; then
-            echo "Folder $1 perms are ok"
+            echo "[INFO]Folder $1 perms are ok" >> $LOGFILENAME
         else
-            echo "Not enough permissions at $1. Try to use sudo."
+            echo "[ERROR]Not enough permissions at $1. Try to use sudo." >> $LOGFILENAME
             exit 1
         fi
     else 
-        echo "Error in filepath! $1 doesn't exist or not a directory"
+        echo "[ERROR]Error in filepath! $1 doesn't exist or not a directory" >> $LOGFILENAME
         exit 1
     fi
 }
@@ -56,15 +56,14 @@ function _mv() {
         OBJ_NEW_NAME="$OBJ_NAME"_"$OBJ_DATE"_"$CUR_DATE"
         
         if [ ! -z "$OBJ_UUID" ]; then
-            echo $OBJ_UUID
             cp $1 "$TARGETDIR"/"$OBJ_NEW_NAME"
-            echo "!!!!!   $1 moved to $TARGETDIR and renamed to $OBJ_NEW_NAME" >> $LOGFILENAME
+            echo "[SUCCESS]FIle $1 moved to $TARGETDIR and renamed to $OBJ_NEW_NAME" >> $LOGFILENAME
         else
-            echo "File $1 is not redy! UUID wasn't detected" >> $LOGFILENAME
+            echo "[FAIL]File $1 is not redy! UUID wasn't detected" >> $LOGFILENAME
         fi 
         unset OBJ_UUID
     else
-        echo "$1 is just a dir ooopsy =D" >> $LOGFILENAME
+        echo "[FAIL]File $1 is just a dir ooopsy =D" >> $LOGFILENAME
     fi
 }
 
@@ -76,7 +75,7 @@ function _mv() {
 function main() {
     _read_config
     touch $LOGFILENAME 
-    echo date >> $LOGFILENAME
+    echo $date >> $LOGFILENAME
     # cur_date=$(date +"%Y-%m-%d %H:%M:%S")
     # declare $(awk 'BEGIN{OFS="\t"} NR==1 {print OBJ_NAME=$1, OBJ_DATE=$2}' second.txt)
     # OBJ_NAME=$(awk 'BEGIN{FS="\t"} NR==1 {print $1}' second.txt)
@@ -87,13 +86,11 @@ function main() {
     LockFile=~/file_flow.lock
     echo "$(tail -1000 $LOGFILENAME)" > $LOGFILENAME
     if [ -f ${LockFile} ]; then
-        echo  "LockFile detected! FileFlow is already runing" >> $LOGFILENAME
+        echo  "[ERROR]LockFile detected! FileFlow is already runing" >> $LOGFILENAME
         exit 1
     else
         touch ${LockFile}
         for file in "$SOURCEDIR"/*; do
-            echo "this is my file ==== $file"
-            # FILEFLOWPATH="$SOURCEDIR"/"$file"
             _mv "$file"
         done
         rm -rf ${LockFile}
