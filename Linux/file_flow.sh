@@ -55,7 +55,7 @@ function _mv() {
     OBJ_UUID=$(awk 'END{if (/^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}/) print $1}' second.txt)
     OBJ_NEW_NAME="$OBJ_NAME"_"$OBJ_DATE"_"$CUR_DATE"
     if [ ! -z "$OBJ_UUID" ]; then
-        mv $1 "$TARGETDIR"/"$OBJ_NEW_NAME"
+        cp $1 "$TARGETDIR"/"$OBJ_NEW_NAME"
         echo "$1 moved to $TARGETDIR and renamed to $OBJ_NEW_NAME" >> $LOGFILENAME
     else
         echo "File $1 is not redy! UUID wasn't detected" >> $LOGFILENAME
