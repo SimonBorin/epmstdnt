@@ -35,7 +35,7 @@ function _dir_chck() { # to mv you need write and exec to folders src dst
 #===============================================================================
 
 function _read_config() {
-    . file_flow.config
+    . $SCRIPT_PASH/file_flow.config
     LOGDIR=$(dirname "${LOGFILENAME}")
     _dir_chck "$SOURCEDIR"
     _dir_chck "$TARGETDIR"
@@ -53,10 +53,10 @@ function _mv() {
         OBJ_NAME=$(awk 'BEGIN{FS="\t"} NR==1 {print $1}' "$1")
         OBJ_DATE=$(awk 'BEGIN{FS="\t"} NR==1 {print $2}' "$1")
         OBJ_UUID=$(awk 'END{if (/^[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}/) print $1}' "$1")
-        OBJ_NEW_NAME="$OBJ_NAME"_"$OBJ_DATE"_"$CUR_DATE"
+        OBJ_NEW_NAME="$OBJ_NAME $OBJ_DATE $CUR_DATE"
         
         if [ ! -z "$OBJ_UUID" ]; then
-            cp $1 "$TARGETDIR"/"$OBJ_NEW_NAME"
+            mv $1 "$TARGETDIR"/"$OBJ_NEW_NAME"
             echo "[SUCCESS]FIle $1 moved to $TARGETDIR and renamed to $OBJ_NEW_NAME" >> $LOGFILENAME
         else
             echo "[FAIL]File $1 is not redy! UUID wasn't detected" >> $LOGFILENAME
@@ -73,6 +73,7 @@ function _mv() {
 #===============================================================================
 
 function main() {
+    SCRIPT_PASH="${0}"
     _read_config
     touch $LOGFILENAME 
     echo "Started at $(date +'%d.%m.%Y %H:%M:%S %Z')" >> $LOGFILENAME
