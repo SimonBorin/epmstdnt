@@ -81,7 +81,7 @@ function replace(){
     _template_chck $1
     _result_create $2
 
-    sed "s/$BEGIN_PTRN\([^$END_PTRN]*\)$END_PTRN/-=$\1=-/g" $1 | envsubst > $2
+    sed "s/$BEGIN_PTRN\([^$END_PTRN]*\)$END_PTRN/$\1/g" $1 | envsubst > $2
 
 }
 

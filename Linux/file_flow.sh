@@ -89,7 +89,7 @@ function main() {
         for file in "$SOURCEDIR"/*; do
             echo "this is my file ==== $file"
             # FILEFLOWPATH="$SOURCEDIR"/"$file"
-            _mv $file
+            _mv "$file"
         done
         rm -rf ${LockFile}
     fi 
