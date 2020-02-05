@@ -50,7 +50,7 @@ function _read_config() {
 #===============================================================================
 
 function _mv() {
-    if [ ! -d "$1" ]; then
+    if [ -f "$1" ]; then
         CUR_DATE=$(date +"%Y-%m-%d %H:%M:%S")
         OBJ_NAME=$(awk 'BEGIN{FS="\t"} NR==1 {print $1}' "$1")
         OBJ_DATE=$(awk 'BEGIN{FS="\t"} NR==1 {print $2}' "$1")
@@ -65,7 +65,7 @@ function _mv() {
         fi 
         unset OBJ_UUID
     else
-        echo "[FAIL]File $1 is just a dir ooopsy =D" >> $LOGFILENAME
+        echo "[FAIL]File $1 is not a common file" >> $LOGFILENAME
     fi
 }
 
