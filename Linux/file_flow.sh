@@ -75,7 +75,7 @@ function _mv() {
 function main() {
     _read_config
     touch $LOGFILENAME 
-    echo $date >> $LOGFILENAME
+    echo $(date) >> $LOGFILENAME
     # cur_date=$(date +"%Y-%m-%d %H:%M:%S")
     # declare $(awk 'BEGIN{OFS="\t"} NR==1 {print OBJ_NAME=$1, OBJ_DATE=$2}' second.txt)
     # OBJ_NAME=$(awk 'BEGIN{FS="\t"} NR==1 {print $1}' second.txt)
