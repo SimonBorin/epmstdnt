@@ -1,0 +1,1752 @@
+{
+    "The Shawshank Redemption": {
+        "Position": 1,
+        "Year": 1994,
+        "Director": "Frank Darabont",
+        "Crew": "Tim Robbins, Morgan Freeman",
+        "Rating": 9.2
+    },
+    "The Godfather": {
+        "Position": 2,
+        "Year": 1972,
+        "Director": "Francis Ford Coppola",
+        "Crew": "Marlon Brando, Al Pacino",
+        "Rating": 9.1
+    },
+    "The Godfather: Part II": {
+        "Position": 3,
+        "Year": 1974,
+        "Director": "Francis Ford Coppola",
+        "Crew": "Al Pacino, Robert De Niro",
+        "Rating": 9.0
+    },
+    "The Dark Knight": {
+        "Position": 4,
+        "Year": 2008,
+        "Director": "Christopher Nolan",
+        "Crew": "Christian Bale, Heath Ledger",
+        "Rating": 9.0
+    },
+    "12 Angry Men": {
+        "Position": 5,
+        "Year": 1957,
+        "Director": "Sidney Lumet",
+        "Crew": "Henry Fonda, Lee J. Cobb",
+        "Rating": 8.9
+    },
+    "Schindler's List": {
+        "Position": 6,
+        "Year": 1993,
+        "Director": "Steven Spielberg",
+        "Crew": "Liam Neeson, Ralph Fiennes",
+        "Rating": 8.9
+    },
+    "The Lord of the Rings: The Return of the King": {
+        "Position": 7,
+        "Year": 2003,
+        "Director": "Peter Jackson",
+        "Crew": "Elijah Wood, Viggo Mortensen",
+        "Rating": 8.9
+    },
+    "Pulp Fiction": {
+        "Position": 8,
+        "Year": 1994,
+        "Director": "Quentin Tarantino",
+        "Crew": "John Travolta, Uma Thurman",
+        "Rating": 8.8
+    },
+    "The Good, the Bad and the Ugly": {
+        "Position": 9,
+        "Year": 1966,
+        "Director": "Sergio Leone",
+        "Crew": "Clint Eastwood, Eli Wallach",
+        "Rating": 8.8
+    },
+    "The Lord of the Rings: The Fellowship of the Ring": {
+        "Position": 10,
+        "Year": 2001,
+        "Director": "Peter Jackson",
+        "Crew": "Elijah Wood, Ian McKellen",
+        "Rating": 8.8
+    },
+    "Fight Club": {
+        "Position": 11,
+        "Year": 1999,
+        "Director": "David Fincher",
+        "Crew": "Brad Pitt, Edward Norton",
+        "Rating": 8.8
+    },
+    "Forrest Gump": {
+        "Position": 12,
+        "Year": 1994,
+        "Director": "Robert Zemeckis",
+        "Crew": "Tom Hanks, Robin Wright",
+        "Rating": 8.8
+    },
+    "Inception": {
+        "Position": 13,
+        "Year": 2010,
+        "Director": "Christopher Nolan",
+        "Crew": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+        "Rating": 8.7
+    },
+    "Star Wars: Episode V - The Empire Strikes Back": {
+        "Position": 14,
+        "Year": 1980,
+        "Director": "Irvin Kershner",
+        "Crew": "Mark Hamill, Harrison Ford",
+        "Rating": 8.7
+    },
+    "The Lord of the Rings: The Two Towers": {
+        "Position": 15,
+        "Year": 2002,
+        "Director": "Peter Jackson",
+        "Crew": "Elijah Wood, Ian McKellen",
+        "Rating": 8.7
+    },
+    "The Matrix": {
+        "Position": 16,
+        "Year": 1999,
+        "Director": "Lana Wachowski",
+        "Crew": "Keanu Reeves, Laurence Fishburne",
+        "Rating": 8.6
+    },
+    "Goodfellas": {
+        "Position": 17,
+        "Year": 1990,
+        "Director": "Martin Scorsese",
+        "Crew": "Robert De Niro, Ray Liotta",
+        "Rating": 8.6
+    },
+    "One Flew Over the Cuckoo's Nest": {
+        "Position": 18,
+        "Year": 1975,
+        "Director": "Milos Forman",
+        "Crew": "Jack Nicholson, Louise Fletcher",
+        "Rating": 8.6
+    },
+    "Seven Samurai": {
+        "Position": 19,
+        "Year": 1954,
+        "Director": "Akira Kurosawa",
+        "Crew": "Toshir\u00f4 Mifune, Takashi Shimura",
+        "Rating": 8.6
+    },
+    "Se7en": {
+        "Position": 20,
+        "Year": 1995,
+        "Director": "David Fincher",
+        "Crew": "Morgan Freeman, Brad Pitt",
+        "Rating": 8.6
+    },
+    "City of God": {
+        "Position": 21,
+        "Year": 2002,
+        "Director": "Fernando Meirelles",
+        "Crew": "Alexandre Rodrigues, Leandro Firmino",
+        "Rating": 8.6
+    },
+    "Life Is Beautiful": {
+        "Position": 22,
+        "Year": 1997,
+        "Director": "Roberto Benigni",
+        "Crew": "Roberto Benigni, Nicoletta Braschi",
+        "Rating": 8.6
+    },
+    "The Silence of the Lambs": {
+        "Position": 23,
+        "Year": 1991,
+        "Director": "Jonathan Demme",
+        "Crew": "Jodie Foster, Anthony Hopkins",
+        "Rating": 8.6
+    },
+    "It's a Wonderful Life": {
+        "Position": 24,
+        "Year": 1946,
+        "Director": "Frank Capra",
+        "Crew": "James Stewart, Donna Reed",
+        "Rating": 8.6
+    },
+    "Star Wars: Episode IV - A New Hope": {
+        "Position": 25,
+        "Year": 1977,
+        "Director": "George Lucas",
+        "Crew": "Mark Hamill, Harrison Ford",
+        "Rating": 8.6
+    },
+    "Parasite": {
+        "Position": 26,
+        "Year": 2019,
+        "Director": "Bong Joon Ho",
+        "Crew": "Kang-ho Song, Sun-kyun Lee",
+        "Rating": 8.6
+    },
+    "Saving Private Ryan": {
+        "Position": 27,
+        "Year": 1998,
+        "Director": "Steven Spielberg",
+        "Crew": "Tom Hanks, Matt Damon",
+        "Rating": 8.5
+    },
+    "Spirited Away": {
+        "Position": 28,
+        "Year": 2001,
+        "Director": "Hayao Miyazaki",
+        "Crew": "Daveigh Chase, Suzanne Pleshette",
+        "Rating": 8.5
+    },
+    "The Green Mile": {
+        "Position": 29,
+        "Year": 1999,
+        "Director": "Frank Darabont",
+        "Crew": "Tom Hanks, Michael Clarke Duncan",
+        "Rating": 8.5
+    },
+    "Interstellar": {
+        "Position": 30,
+        "Year": 2014,
+        "Director": "Christopher Nolan",
+        "Crew": "Matthew McConaughey, Anne Hathaway",
+        "Rating": 8.5
+    },
+    "L\u00e9on: The Professional": {
+        "Position": 31,
+        "Year": 1994,
+        "Director": "Luc Besson",
+        "Crew": "Jean Reno, Gary Oldman",
+        "Rating": 8.5
+    },
+    "The Usual Suspects": {
+        "Position": 32,
+        "Year": 1995,
+        "Director": "Bryan Singer",
+        "Crew": "Kevin Spacey, Gabriel Byrne",
+        "Rating": 8.5
+    },
+    "Harakiri": {
+        "Position": 33,
+        "Year": 1962,
+        "Director": "Masaki Kobayashi",
+        "Crew": "Tatsuya Nakadai, Akira Ishihama",
+        "Rating": 8.5
+    },
+    "The Lion King": {
+        "Position": 34,
+        "Year": 1994,
+        "Director": "Roger Allers",
+        "Crew": "Matthew Broderick, Jeremy Irons",
+        "Rating": 8.5
+    },
+    "American History X": {
+        "Position": 35,
+        "Year": 1998,
+        "Director": "Tony Kaye",
+        "Crew": "Edward Norton, Edward Furlong",
+        "Rating": 8.5
+    },
+    "The Pianist": {
+        "Position": 36,
+        "Year": 2002,
+        "Director": "Roman Polanski",
+        "Crew": "Adrien Brody, Thomas Kretschmann",
+        "Rating": 8.5
+    },
+    "Terminator 2: Judgment Day": {
+        "Position": 37,
+        "Year": 1991,
+        "Director": "James Cameron",
+        "Crew": "Arnold Schwarzenegger, Linda Hamilton",
+        "Rating": 8.5
+    },
+    "Back to the Future": {
+        "Position": 38,
+        "Year": 1985,
+        "Director": "Robert Zemeckis",
+        "Crew": "Michael J. Fox, Christopher Lloyd",
+        "Rating": 8.5
+    },
+    "Modern Times": {
+        "Position": 39,
+        "Year": 1936,
+        "Director": "Charles Chaplin",
+        "Crew": "Charles Chaplin, Paulette Goddard",
+        "Rating": 8.5
+    },
+    "Psycho": {
+        "Position": 40,
+        "Year": 1960,
+        "Director": "Alfred Hitchcock",
+        "Crew": "Anthony Perkins, Janet Leigh",
+        "Rating": 8.5
+    },
+    "Gladiator": {
+        "Position": 41,
+        "Year": 2000,
+        "Director": "Ridley Scott",
+        "Crew": "Russell Crowe, Joaquin Phoenix",
+        "Rating": 8.5
+    },
+    "City Lights": {
+        "Position": 42,
+        "Year": 1931,
+        "Director": "Charles Chaplin",
+        "Crew": "Charles Chaplin, Virginia Cherrill",
+        "Rating": 8.5
+    },
+    "The Intouchables": {
+        "Position": 43,
+        "Year": 2011,
+        "Director": "Olivier Nakache",
+        "Crew": "Fran\u00e7ois Cluzet, Omar Sy",
+        "Rating": 8.5
+    },
+    "The Departed": {
+        "Position": 44,
+        "Year": 2006,
+        "Director": "Martin Scorsese",
+        "Crew": "Leonardo DiCaprio, Matt Damon",
+        "Rating": 8.5
+    },
+    "Whiplash": {
+        "Position": 45,
+        "Year": 2014,
+        "Director": "Damien Chazelle",
+        "Crew": "Miles Teller, J.K. Simmons",
+        "Rating": 8.5
+    },
+    "The Prestige": {
+        "Position": 46,
+        "Year": 2006,
+        "Director": "Christopher Nolan",
+        "Crew": "Christian Bale, Hugh Jackman",
+        "Rating": 8.5
+    },
+    "Once Upon a Time in the West": {
+        "Position": 47,
+        "Year": 1968,
+        "Director": "Sergio Leone",
+        "Crew": "Henry Fonda, Charles Bronson",
+        "Rating": 8.5
+    },
+    "Grave of the Fireflies": {
+        "Position": 48,
+        "Year": 1988,
+        "Director": "Isao Takahata",
+        "Crew": "Tsutomu Tatsumi, Ayano Shiraishi",
+        "Rating": 8.4
+    },
+    "Casablanca": {
+        "Position": 49,
+        "Year": 1942,
+        "Director": "Michael Curtiz",
+        "Crew": "Humphrey Bogart, Ingrid Bergman",
+        "Rating": 8.4
+    },
+    "Joker": {
+        "Position": 50,
+        "Year": 2019,
+        "Director": "Todd Phillips",
+        "Crew": "Joaquin Phoenix, Robert De Niro",
+        "Rating": 8.4
+    },
+    "Cinema Paradiso": {
+        "Position": 51,
+        "Year": 1988,
+        "Director": "Giuseppe Tornatore",
+        "Crew": "Philippe Noiret, Enzo Cannavale",
+        "Rating": 8.4
+    },
+    "Rear Window": {
+        "Position": 52,
+        "Year": 1954,
+        "Director": "Alfred Hitchcock",
+        "Crew": "James Stewart, Grace Kelly",
+        "Rating": 8.4
+    },
+    "Alien": {
+        "Position": 53,
+        "Year": 1979,
+        "Director": "Ridley Scott",
+        "Crew": "Sigourney Weaver, Tom Skerritt",
+        "Rating": 8.4
+    },
+    "Apocalypse Now": {
+        "Position": 54,
+        "Year": 1979,
+        "Director": "Francis Ford Coppola",
+        "Crew": "Martin Sheen, Marlon Brando",
+        "Rating": 8.4
+    },
+    "Memento": {
+        "Position": 55,
+        "Year": 2000,
+        "Director": "Christopher Nolan",
+        "Crew": "Guy Pearce, Carrie-Anne Moss",
+        "Rating": 8.4
+    },
+    "Raiders of the Lost Ark": {
+        "Position": 56,
+        "Year": 1981,
+        "Director": "Steven Spielberg",
+        "Crew": "Harrison Ford, Karen Allen",
+        "Rating": 8.4
+    },
+    "The Great Dictator": {
+        "Position": 57,
+        "Year": 1940,
+        "Director": "Charles Chaplin",
+        "Crew": "Charles Chaplin, Paulette Goddard",
+        "Rating": 8.4
+    },
+    "The Lives of Others": {
+        "Position": 58,
+        "Year": 2006,
+        "Director": "Florian Henckel von Donnersmarck",
+        "Crew": "Ulrich M\u00fche, Martina Gedeck",
+        "Rating": 8.4
+    },
+    "Django Unchained": {
+        "Position": 59,
+        "Year": 2012,
+        "Director": "Quentin Tarantino",
+        "Crew": "Jamie Foxx, Christoph Waltz",
+        "Rating": 8.4
+    },
+    "Paths of Glory": {
+        "Position": 60,
+        "Year": 1957,
+        "Director": "Stanley Kubrick",
+        "Crew": "Kirk Douglas, Ralph Meeker",
+        "Rating": 8.4
+    },
+    "The Shining": {
+        "Position": 61,
+        "Year": 1980,
+        "Director": "Stanley Kubrick",
+        "Crew": "Jack Nicholson, Shelley Duvall",
+        "Rating": 8.4
+    },
+    "Avengers: Infinity War": {
+        "Position": 62,
+        "Year": 2018,
+        "Director": "Anthony Russo",
+        "Crew": "Robert Downey Jr., Chris Hemsworth",
+        "Rating": 8.4
+    },
+    "WALL\u00b7E": {
+        "Position": 63,
+        "Year": 2008,
+        "Director": "Andrew Stanton",
+        "Crew": "Ben Burtt, Elissa Knight",
+        "Rating": 8.4
+    },
+    "Sunset Blvd.": {
+        "Position": 64,
+        "Year": 1950,
+        "Director": "Billy Wilder",
+        "Crew": "William Holden, Gloria Swanson",
+        "Rating": 8.4
+    },
+    "Spider-Man: Into the Spider-Verse": {
+        "Position": 65,
+        "Year": 2018,
+        "Director": "Bob Persichetti",
+        "Crew": "Shameik Moore, Jake Johnson",
+        "Rating": 8.4
+    },
+    "Princess Mononoke": {
+        "Position": 66,
+        "Year": 1997,
+        "Director": "Hayao Miyazaki",
+        "Crew": "Y\u00f4ji Matsuda, Yuriko Ishida",
+        "Rating": 8.4
+    },
+    "Dr. Strangelove": {
+        "Position": 67,
+        "Year": 1964,
+        "Director": "Stanley Kubrick",
+        "Crew": "Peter Sellers, George C. Scott",
+        "Rating": 8.4
+    },
+    "Oldboy": {
+        "Position": 68,
+        "Year": 2003,
+        "Director": "Chan-wook Park",
+        "Crew": "Min-sik Choi, Ji-Tae Yoo",
+        "Rating": 8.4
+    },
+    "Witness for the Prosecution": {
+        "Position": 69,
+        "Year": 1957,
+        "Director": "Billy Wilder",
+        "Crew": "Tyrone Power, Marlene Dietrich",
+        "Rating": 8.4
+    },
+    "Avengers: Endgame": {
+        "Position": 70,
+        "Year": 2019,
+        "Director": "Anthony Russo",
+        "Crew": "Robert Downey Jr., Chris Evans",
+        "Rating": 8.3
+    },
+    "The Dark Knight Rises": {
+        "Position": 71,
+        "Year": 2012,
+        "Director": "Christopher Nolan",
+        "Crew": "Christian Bale, Tom Hardy",
+        "Rating": 8.3
+    },
+    "Once Upon a Time in America": {
+        "Position": 72,
+        "Year": 1984,
+        "Director": "Sergio Leone",
+        "Crew": "Robert De Niro, James Woods",
+        "Rating": 8.3
+    },
+    "Aliens": {
+        "Position": 73,
+        "Year": 1986,
+        "Director": "James Cameron",
+        "Crew": "Sigourney Weaver, Michael Biehn",
+        "Rating": 8.3
+    },
+    "Your Name.": {
+        "Position": 74,
+        "Year": 2016,
+        "Director": "Makoto Shinkai",
+        "Crew": "Ry\u00fbnosuke Kamiki, Mone Kamishiraishi",
+        "Rating": 8.3
+    },
+    "Coco": {
+        "Position": 75,
+        "Year": 2017,
+        "Director": "Lee Unkrich",
+        "Crew": "Anthony Gonzalez, Gael Garc\u00eda Bernal",
+        "Rating": 8.3
+    },
+    "American Beauty": {
+        "Position": 76,
+        "Year": 1999,
+        "Director": "Sam Mendes",
+        "Crew": "Kevin Spacey, Annette Bening",
+        "Rating": 8.3
+    },
+    "Braveheart": {
+        "Position": 77,
+        "Year": 1995,
+        "Director": "Mel Gibson",
+        "Crew": "Mel Gibson, Sophie Marceau",
+        "Rating": 8.3
+    },
+    "Das Boot": {
+        "Position": 78,
+        "Year": 1981,
+        "Director": "Wolfgang Petersen",
+        "Crew": "J\u00fcrgen Prochnow, Herbert Gr\u00f6nemeyer",
+        "Rating": 8.3
+    },
+    "1917": {
+        "Position": 79,
+        "Year": 2019,
+        "Director": "Sam Mendes",
+        "Crew": "Dean-Charles Chapman, George MacKay",
+        "Rating": 8.3
+    },
+    "3 Idiots": {
+        "Position": 80,
+        "Year": 2009,
+        "Director": "Rajkumar Hirani",
+        "Crew": "Aamir Khan, Madhavan",
+        "Rating": 8.3
+    },
+    "Toy Story": {
+        "Position": 81,
+        "Year": 1995,
+        "Director": "John Lasseter",
+        "Crew": "Tom Hanks, Tim Allen",
+        "Rating": 8.3
+    },
+    "High and Low": {
+        "Position": 82,
+        "Year": 1963,
+        "Director": "Akira Kurosawa",
+        "Crew": "Toshir\u00f4 Mifune, Yutaka Sada",
+        "Rating": 8.3
+    },
+    "\u0417\u0432\u0451\u0437\u0434\u043e\u0447\u043a\u0438 \u043d\u0430 \u0437\u0435\u043c\u043b\u0435": {
+        "Position": 83,
+        "Year": 2007,
+        "Director": "Aamir Khan",
+        "Crew": "Darsheel Safary, Aamir Khan",
+        "Rating": 8.3
+    },
+    "Star Wars: Episode VI - Return of the Jedi": {
+        "Position": 84,
+        "Year": 1983,
+        "Director": "Richard Marquand",
+        "Crew": "Mark Hamill, Harrison Ford",
+        "Rating": 8.3
+    },
+    "Amadeus": {
+        "Position": 85,
+        "Year": 1984,
+        "Director": "Milos Forman",
+        "Crew": "F. Murray Abraham, Tom Hulce",
+        "Rating": 8.3
+    },
+    "Reservoir Dogs": {
+        "Position": 86,
+        "Year": 1992,
+        "Director": "Quentin Tarantino",
+        "Crew": "Harvey Keitel, Tim Roth",
+        "Rating": 8.3
+    },
+    "Inglourious Basterds": {
+        "Position": 87,
+        "Year": 2009,
+        "Director": "Quentin Tarantino",
+        "Crew": "Brad Pitt, Diane Kruger",
+        "Rating": 8.3
+    },
+    "Good Will Hunting": {
+        "Position": 88,
+        "Year": 1997,
+        "Director": "Gus Van Sant",
+        "Crew": "Robin Williams, Matt Damon",
+        "Rating": 8.3
+    },
+    "2001: A Space Odyssey": {
+        "Position": 89,
+        "Year": 1968,
+        "Director": "Stanley Kubrick",
+        "Crew": "Keir Dullea, Gary Lockwood",
+        "Rating": 8.3
+    },
+    "Vertigo": {
+        "Position": 90,
+        "Year": 1958,
+        "Director": "Alfred Hitchcock",
+        "Crew": "James Stewart, Kim Novak",
+        "Rating": 8.3
+    },
+    "Requiem for a Dream": {
+        "Position": 91,
+        "Year": 2000,
+        "Director": "Darren Aronofsky",
+        "Crew": "Ellen Burstyn, Jared Leto",
+        "Rating": 8.3
+    },
+    "M": {
+        "Position": 92,
+        "Year": 1931,
+        "Director": "Fritz Lang",
+        "Crew": "Peter Lorre, Ellen Widmann",
+        "Rating": 8.3
+    },
+    "Dangal": {
+        "Position": 93,
+        "Year": 2016,
+        "Director": "Nitesh Tiwari",
+        "Crew": "Aamir Khan, Sakshi Tanwar",
+        "Rating": 8.3
+    },
+    "Eternal Sunshine of the Spotless Mind": {
+        "Position": 94,
+        "Year": 2004,
+        "Director": "Michel Gondry",
+        "Crew": "Jim Carrey, Kate Winslet",
+        "Rating": 8.3
+    },
+    "Citizen Kane": {
+        "Position": 95,
+        "Year": 1941,
+        "Director": "Orson Welles",
+        "Crew": "Orson Welles, Joseph Cotten",
+        "Rating": 8.3
+    },
+    "The Hunt": {
+        "Position": 96,
+        "Year": 2012,
+        "Director": "Thomas Vinterberg",
+        "Crew": "Mads Mikkelsen, Thomas Bo Larsen",
+        "Rating": 8.3
+    },
+    "Capernaum": {
+        "Position": 97,
+        "Year": 2018,
+        "Director": "Nadine Labaki",
+        "Crew": "Zain Al Rafeea, Yordanos Shiferaw",
+        "Rating": 8.3
+    },
+    "Full Metal Jacket": {
+        "Position": 98,
+        "Year": 1987,
+        "Director": "Stanley Kubrick",
+        "Crew": "Matthew Modine, R. Lee Ermey",
+        "Rating": 8.3
+    },
+    "North by Northwest": {
+        "Position": 99,
+        "Year": 1959,
+        "Director": "Alfred Hitchcock",
+        "Crew": "Cary Grant, Eva Marie Saint",
+        "Rating": 8.3
+    },
+    "A Clockwork Orange": {
+        "Position": 100,
+        "Year": 1971,
+        "Director": "Stanley Kubrick",
+        "Crew": "Malcolm McDowell, Patrick Magee",
+        "Rating": 8.2
+    },
+    "The Kid": {
+        "Position": 101,
+        "Year": 1921,
+        "Director": "Charles Chaplin",
+        "Crew": "Charles Chaplin, Edna Purviance",
+        "Rating": 8.2
+    },
+    "Bicycle Thieves": {
+        "Position": 102,
+        "Year": 1948,
+        "Director": "Vittorio De Sica",
+        "Crew": "Lamberto Maggiorani, Enzo Staiola",
+        "Rating": 8.2
+    },
+    "Snatch": {
+        "Position": 103,
+        "Year": 2000,
+        "Director": "Guy Ritchie",
+        "Crew": "Jason Statham, Brad Pitt",
+        "Rating": 8.2
+    },
+    "Singin' in the Rain": {
+        "Position": 104,
+        "Year": 1952,
+        "Director": "Stanley Donen",
+        "Crew": "Gene Kelly, Donald O'Connor",
+        "Rating": 8.2
+    },
+    "Scarface": {
+        "Position": 105,
+        "Year": 1983,
+        "Director": "Brian De Palma",
+        "Crew": "Al Pacino, Michelle Pfeiffer",
+        "Rating": 8.2
+    },
+    "Taxi Driver": {
+        "Position": 106,
+        "Year": 1976,
+        "Director": "Martin Scorsese",
+        "Crew": "Robert De Niro, Jodie Foster",
+        "Rating": 8.2
+    },
+    "Am\u00e9lie": {
+        "Position": 107,
+        "Year": 2001,
+        "Director": "Jean-Pierre Jeunet",
+        "Crew": "Audrey Tautou, Mathieu Kassovitz",
+        "Rating": 8.2
+    },
+    "Lawrence of Arabia": {
+        "Position": 108,
+        "Year": 1962,
+        "Director": "David Lean",
+        "Crew": "Peter O'Toole, Alec Guinness",
+        "Rating": 8.2
+    },
+    "The Sting": {
+        "Position": 109,
+        "Year": 1973,
+        "Director": "George Roy Hill",
+        "Crew": "Paul Newman, Robert Redford",
+        "Rating": 8.2
+    },
+    "Toy Story 3": {
+        "Position": 110,
+        "Year": 2010,
+        "Director": "Lee Unkrich",
+        "Crew": "Tom Hanks, Tim Allen",
+        "Rating": 8.2
+    },
+    "Metropolis": {
+        "Position": 111,
+        "Year": 1927,
+        "Director": "Fritz Lang",
+        "Crew": "Brigitte Helm, Alfred Abel",
+        "Rating": 8.2
+    },
+    "Ikiru": {
+        "Position": 112,
+        "Year": 1952,
+        "Director": "Akira Kurosawa",
+        "Crew": "Takashi Shimura, Nobuo Kaneko",
+        "Rating": 8.2
+    },
+    "For a Few Dollars More": {
+        "Position": 113,
+        "Year": 1965,
+        "Director": "Sergio Leone",
+        "Crew": "Clint Eastwood, Lee Van Cleef",
+        "Rating": 8.2
+    },
+    "A Separation": {
+        "Position": 114,
+        "Year": 2011,
+        "Director": "Asghar Farhadi",
+        "Crew": "Payman Maadi, Leila Hatami",
+        "Rating": 8.2
+    },
+    "Double Indemnity": {
+        "Position": 115,
+        "Year": 1944,
+        "Director": "Billy Wilder",
+        "Crew": "Fred MacMurray, Barbara Stanwyck",
+        "Rating": 8.2
+    },
+    "The Apartment": {
+        "Position": 116,
+        "Year": 1960,
+        "Director": "Billy Wilder",
+        "Crew": "Jack Lemmon, Shirley MacLaine",
+        "Rating": 8.2
+    },
+    "Incendies": {
+        "Position": 117,
+        "Year": 2010,
+        "Director": "Denis Villeneuve",
+        "Crew": "Lubna Azabal, M\u00e9lissa D\u00e9sormeaux-Poulin",
+        "Rating": 8.2
+    },
+    "To Kill a Mockingbird": {
+        "Position": 118,
+        "Year": 1962,
+        "Director": "Robert Mulligan",
+        "Crew": "Gregory Peck, John Megna",
+        "Rating": 8.2
+    },
+    "Indiana Jones and the Last Crusade": {
+        "Position": 119,
+        "Year": 1989,
+        "Director": "Steven Spielberg",
+        "Crew": "Harrison Ford, Sean Connery",
+        "Rating": 8.2
+    },
+    "Up": {
+        "Position": 120,
+        "Year": 2009,
+        "Director": "Pete Docter",
+        "Crew": "Edward Asner, Jordan Nagai",
+        "Rating": 8.2
+    },
+    "L.A. Confidential": {
+        "Position": 121,
+        "Year": 1997,
+        "Director": "Curtis Hanson",
+        "Crew": "Kevin Spacey, Russell Crowe",
+        "Rating": 8.2
+    },
+    "Heat": {
+        "Position": 122,
+        "Year": 1995,
+        "Director": "Michael Mann",
+        "Crew": "Al Pacino, Robert De Niro",
+        "Rating": 8.2
+    },
+    "Monty Python and the Holy Grail": {
+        "Position": 123,
+        "Year": 1975,
+        "Director": "Terry Gilliam",
+        "Crew": "Graham Chapman, John Cleese",
+        "Rating": 8.2
+    },
+    "Die Hard": {
+        "Position": 124,
+        "Year": 1988,
+        "Director": "John McTiernan",
+        "Crew": "Bruce Willis, Alan Rickman",
+        "Rating": 8.2
+    },
+    "Rashomon": {
+        "Position": 125,
+        "Year": 1950,
+        "Director": "Akira Kurosawa",
+        "Crew": "Toshir\u00f4 Mifune, Machiko Ky\u00f4",
+        "Rating": 8.2
+    },
+    "Yojimbo": {
+        "Position": 126,
+        "Year": 1961,
+        "Director": "Akira Kurosawa",
+        "Crew": "Toshir\u00f4 Mifune, Eijir\u00f4 T\u00f4no",
+        "Rating": 8.2
+    },
+    "Batman Begins": {
+        "Position": 127,
+        "Year": 2005,
+        "Director": "Christopher Nolan",
+        "Crew": "Christian Bale, Michael Caine",
+        "Rating": 8.2
+    },
+    "Green Book": {
+        "Position": 128,
+        "Year": 2018,
+        "Director": "Peter Farrelly",
+        "Crew": "Viggo Mortensen, Mahershala Ali",
+        "Rating": 8.2
+    },
+    "Come and See": {
+        "Position": 129,
+        "Year": 1985,
+        "Director": "Elem Klimov",
+        "Crew": "Aleksey Kravchenko, Olga Mironova",
+        "Rating": 8.2
+    },
+    "Downfall": {
+        "Position": 130,
+        "Year": 2004,
+        "Director": "Oliver Hirschbiegel",
+        "Crew": "Bruno Ganz, Alexandra Maria Lara",
+        "Rating": 8.2
+    },
+    "Children of Heaven": {
+        "Position": 131,
+        "Year": 1997,
+        "Director": "Majid Majidi",
+        "Crew": "Mohammad Amir Naji, Amir Farrokh Hashemian",
+        "Rating": 8.2
+    },
+    "Unforgiven": {
+        "Position": 132,
+        "Year": 1992,
+        "Director": "Clint Eastwood",
+        "Crew": "Clint Eastwood, Gene Hackman",
+        "Rating": 8.2
+    },
+    "Some Like It Hot": {
+        "Position": 133,
+        "Year": 1959,
+        "Director": "Billy Wilder",
+        "Crew": "Marilyn Monroe, Tony Curtis",
+        "Rating": 8.2
+    },
+    "Howl's Moving Castle": {
+        "Position": 134,
+        "Year": 2004,
+        "Director": "Hayao Miyazaki",
+        "Crew": "Chieko Baish\u00f4, Takuya Kimura",
+        "Rating": 8.2
+    },
+    "Ran": {
+        "Position": 135,
+        "Year": 1985,
+        "Director": "Akira Kurosawa",
+        "Crew": "Tatsuya Nakadai, Akira Terao",
+        "Rating": 8.2
+    },
+    "The Great Escape": {
+        "Position": 136,
+        "Year": 1963,
+        "Director": "John Sturges",
+        "Crew": "Steve McQueen, James Garner",
+        "Rating": 8.2
+    },
+    "All About Eve": {
+        "Position": 137,
+        "Year": 1950,
+        "Director": "Joseph L. Mankiewicz",
+        "Crew": "Bette Davis, Anne Baxter",
+        "Rating": 8.2
+    },
+    "A Beautiful Mind": {
+        "Position": 138,
+        "Year": 2001,
+        "Director": "Ron Howard",
+        "Crew": "Russell Crowe, Ed Harris",
+        "Rating": 8.2
+    },
+    "Casino": {
+        "Position": 139,
+        "Year": 1995,
+        "Director": "Martin Scorsese",
+        "Crew": "Robert De Niro, Sharon Stone",
+        "Rating": 8.2
+    },
+    "Pan's Labyrinth": {
+        "Position": 140,
+        "Year": 2006,
+        "Director": "Guillermo del Toro",
+        "Crew": "Ivana Baquero, Ariadna Gil",
+        "Rating": 8.2
+    },
+    "My Neighbor Totoro": {
+        "Position": 141,
+        "Year": 1988,
+        "Director": "Hayao Miyazaki",
+        "Crew": "Hitoshi Takagi, Noriko Hidaka",
+        "Rating": 8.2
+    },
+    "The Secret in Their Eyes": {
+        "Position": 142,
+        "Year": 2009,
+        "Director": "Juan Jos\u00e9 Campanella",
+        "Crew": "Ricardo Dar\u00edn, Soledad Villamil",
+        "Rating": 8.2
+    },
+    "Lock, Stock and Two Smoking Barrels": {
+        "Position": 143,
+        "Year": 1998,
+        "Director": "Guy Ritchie",
+        "Crew": "Jason Flemyng, Dexter Fletcher",
+        "Rating": 8.2
+    },
+    "Raging Bull": {
+        "Position": 144,
+        "Year": 1980,
+        "Director": "Martin Scorsese",
+        "Crew": "Robert De Niro, Cathy Moriarty",
+        "Rating": 8.2
+    },
+    "The Wolf of Wall Street": {
+        "Position": 145,
+        "Year": 2013,
+        "Director": "Martin Scorsese",
+        "Crew": "Leonardo DiCaprio, Jonah Hill",
+        "Rating": 8.2
+    },
+    "Judgment at Nuremberg": {
+        "Position": 146,
+        "Year": 1961,
+        "Director": "Stanley Kramer",
+        "Crew": "Spencer Tracy, Burt Lancaster",
+        "Rating": 8.1
+    },
+    "The Treasure of the Sierra Madre": {
+        "Position": 147,
+        "Year": 1948,
+        "Director": "John Huston",
+        "Crew": "Humphrey Bogart, Walter Huston",
+        "Rating": 8.1
+    },
+    "There Will Be Blood": {
+        "Position": 148,
+        "Year": 2007,
+        "Director": "Paul Thomas Anderson",
+        "Crew": "Daniel Day-Lewis, Paul Dano",
+        "Rating": 8.1
+    },
+    "\u041c\u043e\u0439 \u043e\u0442\u0435\u0446 \u0438 \u043c\u043e\u0439 \u0441\u044b\u043d": {
+        "Position": 149,
+        "Year": 2005,
+        "Director": "\u00c7agan Irmak",
+        "Crew": "\u00c7etin Tekindor, Fikret Kuskan",
+        "Rating": 8.1
+    },
+    "Three Billboards Outside Ebbing, Missouri": {
+        "Position": 150,
+        "Year": 2017,
+        "Director": "Martin McDonagh",
+        "Crew": "Frances McDormand, Woody Harrelson",
+        "Rating": 8.1
+    },
+    "The Gold Rush": {
+        "Position": 151,
+        "Year": 1925,
+        "Director": "Charles Chaplin",
+        "Crew": "Charles Chaplin, Mack Swain",
+        "Rating": 8.1
+    },
+    "Chinatown": {
+        "Position": 152,
+        "Year": 1974,
+        "Director": "Roman Polanski",
+        "Crew": "Jack Nicholson, Faye Dunaway",
+        "Rating": 8.1
+    },
+    "Dial M for Murder": {
+        "Position": 153,
+        "Year": 1954,
+        "Director": "Alfred Hitchcock",
+        "Crew": "Ray Milland, Grace Kelly",
+        "Rating": 8.1
+    },
+    "V for Vendetta": {
+        "Position": 154,
+        "Year": 2005,
+        "Director": "James McTeigue",
+        "Crew": "Hugo Weaving, Natalie Portman",
+        "Rating": 8.1
+    },
+    "The Seventh Seal": {
+        "Position": 155,
+        "Year": 1957,
+        "Director": "Ingmar Bergman",
+        "Crew": "Max von Sydow, Gunnar Bj\u00f6rnstrand",
+        "Rating": 8.1
+    },
+    "No Country for Old Men": {
+        "Position": 156,
+        "Year": 2007,
+        "Director": "Ethan Coen",
+        "Crew": "Tommy Lee Jones, Javier Bardem",
+        "Rating": 8.1
+    },
+    "Inside Out": {
+        "Position": 157,
+        "Year": 2015,
+        "Director": "Pete Docter",
+        "Crew": "Amy Poehler, Bill Hader",
+        "Rating": 8.1
+    },
+    "Warrior": {
+        "Position": 158,
+        "Year": 2011,
+        "Director": "Gavin O'Connor",
+        "Crew": "Tom Hardy, Nick Nolte",
+        "Rating": 8.1
+    },
+    "Shutter Island": {
+        "Position": 159,
+        "Year": 2010,
+        "Director": "Martin Scorsese",
+        "Crew": "Leonardo DiCaprio, Emily Mortimer",
+        "Rating": 8.1
+    },
+    "Trainspotting": {
+        "Position": 160,
+        "Year": 1996,
+        "Director": "Danny Boyle",
+        "Crew": "Ewan McGregor, Ewen Bremner",
+        "Rating": 8.1
+    },
+    "The Elephant Man": {
+        "Position": 161,
+        "Year": 1980,
+        "Director": "David Lynch",
+        "Crew": "Anthony Hopkins, John Hurt",
+        "Rating": 8.1
+    },
+    "The Sixth Sense": {
+        "Position": 162,
+        "Year": 1999,
+        "Director": "M. Night Shyamalan",
+        "Crew": "Bruce Willis, Haley Joel Osment",
+        "Rating": 8.1
+    },
+    "The Thing": {
+        "Position": 163,
+        "Year": 1982,
+        "Director": "John Carpenter",
+        "Crew": "Kurt Russell, Wilford Brimley",
+        "Rating": 8.1
+    },
+    "Room": {
+        "Position": 164,
+        "Year": 2015,
+        "Director": "Lenny Abrahamson",
+        "Crew": "Brie Larson, Jacob Tremblay",
+        "Rating": 8.1
+    },
+    "Gone with the Wind": {
+        "Position": 165,
+        "Year": 1939,
+        "Director": "Victor Fleming",
+        "Crew": "Clark Gable, Vivien Leigh",
+        "Rating": 8.1
+    },
+    "Jurassic Park": {
+        "Position": 166,
+        "Year": 1993,
+        "Director": "Steven Spielberg",
+        "Crew": "Sam Neill, Laura Dern",
+        "Rating": 8.1
+    },
+    "Wild Strawberries": {
+        "Position": 167,
+        "Year": 1957,
+        "Director": "Ingmar Bergman",
+        "Crew": "Victor Sj\u00f6str\u00f6m, Bibi Andersson",
+        "Rating": 8.1
+    },
+    "Blade Runner": {
+        "Position": 168,
+        "Year": 1982,
+        "Director": "Ridley Scott",
+        "Crew": "Harrison Ford, Rutger Hauer",
+        "Rating": 8.1
+    },
+    "The Bridge on the River Kwai": {
+        "Position": 169,
+        "Year": 1957,
+        "Director": "David Lean",
+        "Crew": "William Holden, Alec Guinness",
+        "Rating": 8.1
+    },
+    "Finding Nemo": {
+        "Position": 170,
+        "Year": 2003,
+        "Director": "Andrew Stanton",
+        "Crew": "Albert Brooks, Ellen DeGeneres",
+        "Rating": 8.1
+    },
+    "Stalker": {
+        "Position": 171,
+        "Year": 1979,
+        "Director": "Andrei Tarkovsky",
+        "Crew": "Alisa Freyndlikh, Aleksandr Kaydanovskiy",
+        "Rating": 8.1
+    },
+    "The Third Man": {
+        "Position": 172,
+        "Year": 1949,
+        "Director": "Carol Reed",
+        "Crew": "Orson Welles, Joseph Cotten",
+        "Rating": 8.1
+    },
+    "On the Waterfront": {
+        "Position": 173,
+        "Year": 1954,
+        "Director": "Elia Kazan",
+        "Crew": "Marlon Brando, Karl Malden",
+        "Rating": 8.1
+    },
+    "Fargo": {
+        "Position": 174,
+        "Year": 1996,
+        "Director": "Joel Coen",
+        "Crew": "William H. Macy, Frances McDormand",
+        "Rating": 8.1
+    },
+    "Kill Bill: Vol. 1": {
+        "Position": 175,
+        "Year": 2003,
+        "Director": "Quentin Tarantino",
+        "Crew": "Uma Thurman, David Carradine",
+        "Rating": 8.1
+    },
+    "The Truman Show": {
+        "Position": 176,
+        "Year": 1998,
+        "Director": "Peter Weir",
+        "Crew": "Jim Carrey, Ed Harris",
+        "Rating": 8.1
+    },
+    "Gran Torino": {
+        "Position": 177,
+        "Year": 2008,
+        "Director": "Clint Eastwood",
+        "Crew": "Clint Eastwood, Bee Vang",
+        "Rating": 8.1
+    },
+    "Tokyo Story": {
+        "Position": 178,
+        "Year": 1953,
+        "Director": "Yasujir\u00f4 Ozu",
+        "Crew": "Chish\u00fb Ry\u00fb, Chieko Higashiyama",
+        "Rating": 8.1
+    },
+    "The Deer Hunter": {
+        "Position": 179,
+        "Year": 1978,
+        "Director": "Michael Cimino",
+        "Crew": "Robert De Niro, Christopher Walken",
+        "Rating": 8.1
+    },
+    "Memories of Murder": {
+        "Position": 180,
+        "Year": 2003,
+        "Director": "Bong Joon Ho",
+        "Crew": "Kang-ho Song, Sang-kyung Kim",
+        "Rating": 8.1
+    },
+    "Wild Tales": {
+        "Position": 181,
+        "Year": 2014,
+        "Director": "Dami\u00e1n Szifron",
+        "Crew": "Dar\u00edo Grandinetti, Mar\u00eda Marull",
+        "Rating": 8.1
+    },
+    "Klaus": {
+        "Position": 182,
+        "Year": 2019,
+        "Director": "Sergio Pablos",
+        "Crew": "Jason Schwartzman, J.K. Simmons",
+        "Rating": 8.1
+    },
+    "The Bandit": {
+        "Position": 183,
+        "Year": 1996,
+        "Director": "Yavuz Turgul",
+        "Crew": "Sener Sen, Ugur Y\u00fccel",
+        "Rating": 8.1
+    },
+    "Andhadhun": {
+        "Position": 184,
+        "Year": 2018,
+        "Director": "Sriram Raghavan",
+        "Crew": "Ayushmann Khurrana, Tabu",
+        "Rating": 8.1
+    },
+    "The Big Lebowski": {
+        "Position": 185,
+        "Year": 1998,
+        "Director": "Joel Coen",
+        "Crew": "Jeff Bridges, John Goodman",
+        "Rating": 8.1
+    },
+    "Mary and Max": {
+        "Position": 186,
+        "Year": 2009,
+        "Director": "Adam Elliot",
+        "Crew": "Toni Collette, Philip Seymour Hoffman",
+        "Rating": 8.1
+    },
+    "In the Name of the Father": {
+        "Position": 187,
+        "Year": 1993,
+        "Director": "Jim Sheridan",
+        "Crew": "Daniel Day-Lewis, Pete Postlethwaite",
+        "Rating": 8.1
+    },
+    "Gone Girl": {
+        "Position": 188,
+        "Year": 2014,
+        "Director": "David Fincher",
+        "Crew": "Ben Affleck, Rosamund Pike",
+        "Rating": 8.1
+    },
+    "Hacksaw Ridge": {
+        "Position": 189,
+        "Year": 2016,
+        "Director": "Mel Gibson",
+        "Crew": "Andrew Garfield, Sam Worthington",
+        "Rating": 8.1
+    },
+    "The Grand Budapest Hotel": {
+        "Position": 190,
+        "Year": 2014,
+        "Director": "Wes Anderson",
+        "Crew": "Ralph Fiennes, F. Murray Abraham",
+        "Rating": 8.1
+    },
+    "Ford v Ferrari": {
+        "Position": 191,
+        "Year": 2019,
+        "Director": "James Mangold",
+        "Crew": "Matt Damon, Christian Bale",
+        "Rating": 8.1
+    },
+    "Persona": {
+        "Position": 192,
+        "Year": 1966,
+        "Director": "Ingmar Bergman",
+        "Crew": "Bibi Andersson, Liv Ullmann",
+        "Rating": 8.1
+    },
+    "Before Sunrise": {
+        "Position": 193,
+        "Year": 1995,
+        "Director": "Richard Linklater",
+        "Crew": "Ethan Hawke, Julie Delpy",
+        "Rating": 8.1
+    },
+    "How to Train Your Dragon": {
+        "Position": 194,
+        "Year": 2010,
+        "Director": "Dean DeBlois",
+        "Crew": "Jay Baruchel, Gerard Butler",
+        "Rating": 8.1
+    },
+    "Catch Me If You Can": {
+        "Position": 195,
+        "Year": 2002,
+        "Director": "Steven Spielberg",
+        "Crew": "Leonardo DiCaprio, Tom Hanks",
+        "Rating": 8.1
+    },
+    "The General": {
+        "Position": 196,
+        "Year": 1926,
+        "Director": "Clyde Bruckman",
+        "Crew": "Buster Keaton, Marion Mack",
+        "Rating": 8.1
+    },
+    "Mr. Smith Goes to Washington": {
+        "Position": 197,
+        "Year": 1939,
+        "Director": "Frank Capra",
+        "Crew": "James Stewart, Jean Arthur",
+        "Rating": 8.1
+    },
+    "Sherlock Jr.": {
+        "Position": 198,
+        "Year": 1924,
+        "Director": "Buster Keaton",
+        "Crew": "Buster Keaton, Kathryn McGuire",
+        "Rating": 8.1
+    },
+    "Prisoners": {
+        "Position": 199,
+        "Year": 2013,
+        "Director": "Denis Villeneuve",
+        "Crew": "Hugh Jackman, Jake Gyllenhaal",
+        "Rating": 8.1
+    },
+    "12 Years a Slave": {
+        "Position": 200,
+        "Year": 2013,
+        "Director": "Steve McQueen",
+        "Crew": "Chiwetel Ejiofor, Michael Kenneth Williams",
+        "Rating": 8.1
+    },
+    "Cool Hand Luke": {
+        "Position": 201,
+        "Year": 1967,
+        "Director": "Stuart Rosenberg",
+        "Crew": "Paul Newman, George Kennedy",
+        "Rating": 8.1
+    },
+    "Mad Max: Fury Road": {
+        "Position": 202,
+        "Year": 2015,
+        "Director": "George Miller",
+        "Crew": "Tom Hardy, Charlize Theron",
+        "Rating": 8.1
+    },
+    "Barry Lyndon": {
+        "Position": 203,
+        "Year": 1975,
+        "Director": "Stanley Kubrick",
+        "Crew": "Ryan O'Neal, Marisa Berenson",
+        "Rating": 8.1
+    },
+    "Network": {
+        "Position": 204,
+        "Year": 1976,
+        "Director": "Sidney Lumet",
+        "Crew": "Faye Dunaway, William Holden",
+        "Rating": 8.1
+    },
+    "The Wages of Fear": {
+        "Position": 205,
+        "Year": 1953,
+        "Director": "Henri-Georges Clouzot",
+        "Crew": "Yves Montand, Charles Vanel",
+        "Rating": 8.1
+    },
+    "Stand by Me": {
+        "Position": 206,
+        "Year": 1986,
+        "Director": "Rob Reiner",
+        "Crew": "Wil Wheaton, River Phoenix",
+        "Rating": 8.1
+    },
+    "Into the Wild": {
+        "Position": 207,
+        "Year": 2007,
+        "Director": "Sean Penn",
+        "Crew": "Emile Hirsch, Vince Vaughn",
+        "Rating": 8.1
+    },
+    "Million Dollar Baby": {
+        "Position": 208,
+        "Year": 2004,
+        "Director": "Clint Eastwood",
+        "Crew": "Hilary Swank, Clint Eastwood",
+        "Rating": 8.1
+    },
+    "Monty Python's Life of Brian": {
+        "Position": 209,
+        "Year": 1979,
+        "Director": "Terry Jones",
+        "Crew": "Graham Chapman, John Cleese",
+        "Rating": 8.1
+    },
+    "Hachi: A Dog's Tale": {
+        "Position": 210,
+        "Year": 2009,
+        "Director": "Lasse Hallstr\u00f6m",
+        "Crew": "Richard Gere, Joan Allen",
+        "Rating": 8.1
+    },
+    "Platoon": {
+        "Position": 211,
+        "Year": 1986,
+        "Director": "Oliver Stone",
+        "Crew": "Charlie Sheen, Tom Berenger",
+        "Rating": 8.1
+    },
+    "Ben-Hur": {
+        "Position": 212,
+        "Year": 1959,
+        "Director": "William Wyler",
+        "Crew": "Charlton Heston, Jack Hawkins",
+        "Rating": 8.1
+    },
+    "Rush": {
+        "Position": 213,
+        "Year": 2013,
+        "Director": "Ron Howard",
+        "Crew": "Daniel Br\u00fchl, Chris Hemsworth",
+        "Rating": 8.1
+    },
+    "The Passion of Joan of Arc": {
+        "Position": 214,
+        "Year": 1928,
+        "Director": "Carl Theodor Dreyer",
+        "Crew": "Maria Falconetti, Eugene Silvain",
+        "Rating": 8.1
+    },
+    "Logan": {
+        "Position": 215,
+        "Year": 2017,
+        "Director": "James Mangold",
+        "Crew": "Hugh Jackman, Patrick Stewart",
+        "Rating": 8.0
+    },
+    "Andrei Rublev": {
+        "Position": 216,
+        "Year": 1966,
+        "Director": "Andrei Tarkovsky",
+        "Crew": "Anatoliy Solonitsyn, Ivan Lapikov",
+        "Rating": 8.0
+    },
+    "Harry Potter and the Deathly Hallows: Part 2": {
+        "Position": 217,
+        "Year": 2011,
+        "Director": "David Yates",
+        "Crew": "Daniel Radcliffe, Emma Watson",
+        "Rating": 8.0
+    },
+    "Dead Poets Society": {
+        "Position": 218,
+        "Year": 1989,
+        "Director": "Peter Weir",
+        "Crew": "Robin Williams, Robert Sean Leonard",
+        "Rating": 8.0
+    },
+    "The 400 Blows": {
+        "Position": 219,
+        "Year": 1959,
+        "Director": "Fran\u00e7ois Truffaut",
+        "Crew": "Jean-Pierre L\u00e9aud, Albert R\u00e9my",
+        "Rating": 8.0
+    },
+    "Hotel Rwanda": {
+        "Position": 220,
+        "Year": 2004,
+        "Director": "Terry George",
+        "Crew": "Don Cheadle, Sophie Okonedo",
+        "Rating": 8.0
+    },
+    "\u0426\u0432\u0435\u0442 \u0448\u0430\u0444\u0440\u0430\u043d\u0430": {
+        "Position": 221,
+        "Year": 2006,
+        "Director": "Rakeysh Omprakash Mehra",
+        "Crew": "Aamir Khan, Soha Ali Khan",
+        "Rating": 8.0
+    },
+    "Amores Perros": {
+        "Position": 222,
+        "Year": 2000,
+        "Director": "Alejandro G. I\u00f1\u00e1rritu",
+        "Crew": "Emilio Echevarr\u00eda, Gael Garc\u00eda Bernal",
+        "Rating": 8.0
+    },
+    "Nausica\u00e4 of the Valley of the Wind": {
+        "Position": 223,
+        "Year": 1984,
+        "Director": "Hayao Miyazaki",
+        "Crew": "Sumi Shimamoto, Mahito Tsujimura",
+        "Rating": 8.0
+    },
+    "Spotlight": {
+        "Position": 224,
+        "Year": 2015,
+        "Director": "Tom McCarthy",
+        "Crew": "Mark Ruffalo, Michael Keaton",
+        "Rating": 8.0
+    },
+    "The Handmaiden": {
+        "Position": 225,
+        "Year": 2016,
+        "Director": "Chan-wook Park",
+        "Crew": "Min-hee Kim, Jung-woo Ha",
+        "Rating": 8.0
+    },
+    "Rocky": {
+        "Position": 226,
+        "Year": 1976,
+        "Director": "John G. Avildsen",
+        "Crew": "Sylvester Stallone, Talia Shire",
+        "Rating": 8.0
+    },
+    "Rebecca": {
+        "Position": 227,
+        "Year": 1940,
+        "Director": "Alfred Hitchcock",
+        "Crew": "Laurence Olivier, Joan Fontaine",
+        "Rating": 8.0
+    },
+    "Portrait of a Lady on Fire": {
+        "Position": 228,
+        "Year": 2019,
+        "Director": "C\u00e9line Sciamma",
+        "Crew": "No\u00e9mie Merlant, Ad\u00e8le Haenel",
+        "Rating": 8.0
+    },
+    "Monsters, Inc.": {
+        "Position": 229,
+        "Year": 2001,
+        "Director": "Pete Docter",
+        "Crew": "Billy Crystal, John Goodman",
+        "Rating": 8.0
+    },
+    "La Haine": {
+        "Position": 230,
+        "Year": 1995,
+        "Director": "Mathieu Kassovitz",
+        "Crew": "Vincent Cassel, Hubert Kound\u00e9",
+        "Rating": 8.0
+    },
+    "It Happened One Night": {
+        "Position": 231,
+        "Year": 1934,
+        "Director": "Frank Capra",
+        "Crew": "Clark Gable, Claudette Colbert",
+        "Rating": 8.0
+    },
+    "In the Mood for Love": {
+        "Position": 232,
+        "Year": 2000,
+        "Director": "Kar-Wai Wong",
+        "Crew": "Tony Chiu-Wai Leung, Maggie Cheung",
+        "Rating": 8.0
+    },
+    "Gangs of Wasseypur": {
+        "Position": 233,
+        "Year": 2012,
+        "Director": "Anurag Kashyap",
+        "Crew": "Manoj Bajpayee, Richa Chadha",
+        "Rating": 8.0
+    },
+    "Before Sunset": {
+        "Position": 234,
+        "Year": 2004,
+        "Director": "Richard Linklater",
+        "Crew": "Ethan Hawke, Julie Delpy",
+        "Rating": 8.0
+    },
+    "The Princess Bride": {
+        "Position": 235,
+        "Year": 1987,
+        "Director": "Rob Reiner",
+        "Crew": "Cary Elwes, Mandy Patinkin",
+        "Rating": 8.0
+    },
+    "The Help": {
+        "Position": 236,
+        "Year": 2011,
+        "Director": "Tate Taylor",
+        "Crew": "Emma Stone, Viola Davis",
+        "Rating": 8.0
+    },
+    "Paris, Texas": {
+        "Position": 237,
+        "Year": 1984,
+        "Director": "Wim Wenders",
+        "Crew": "Harry Dean Stanton, Nastassja Kinski",
+        "Rating": 8.0
+    },
+    "The Invisible Guest": {
+        "Position": 238,
+        "Year": 2016,
+        "Director": "Oriol Paulo",
+        "Crew": "Mario Casas, Ana Wagener",
+        "Rating": 8.0
+    },
+    "Ace in the Hole": {
+        "Position": 239,
+        "Year": 1951,
+        "Director": "Billy Wilder",
+        "Crew": "Kirk Douglas, Jan Sterling",
+        "Rating": 8.0
+    },
+    "The Terminator": {
+        "Position": 240,
+        "Year": 1984,
+        "Director": "James Cameron",
+        "Crew": "Arnold Schwarzenegger, Linda Hamilton",
+        "Rating": 8.0
+    },
+    "Drishyam": {
+        "Position": 241,
+        "Year": 2015,
+        "Director": "Nishikant Kamat",
+        "Crew": "Ajay Devgn, Shriya Saran",
+        "Rating": 8.0
+    },
+    "Lagaan: Once Upon a Time in India": {
+        "Position": 242,
+        "Year": 2001,
+        "Director": "Ashutosh Gowariker",
+        "Crew": "Aamir Khan, Raghuvir Yadav",
+        "Rating": 8.0
+    },
+    "\u0417\u0438\u043c\u043d\u044f\u044f \u0441\u043f\u044f\u0447\u043a\u0430": {
+        "Position": 243,
+        "Year": 2014,
+        "Director": "Nuri Bilge Ceylan",
+        "Crew": "Haluk Bilginer, Melisa S\u00f6zen",
+        "Rating": 8.0
+    },
+    "Butch Cassidy and the Sundance Kid": {
+        "Position": 244,
+        "Year": 1969,
+        "Director": "George Roy Hill",
+        "Crew": "Paul Newman, Robert Redford",
+        "Rating": 8.0
+    },
+    "The Red Shoes": {
+        "Position": 245,
+        "Year": 1948,
+        "Director": "Michael Powell",
+        "Crew": "Anton Walbrook, Marius Goring",
+        "Rating": 8.0
+    },
+    "Aladdin": {
+        "Position": 246,
+        "Year": 1992,
+        "Director": "Ron Clements",
+        "Crew": "Scott Weinger, Robin Williams",
+        "Rating": 8.0
+    },
+    "PK": {
+        "Position": 247,
+        "Year": 2014,
+        "Director": "Rajkumar Hirani",
+        "Crew": "Aamir Khan, Anushka Sharma",
+        "Rating": 8.0
+    },
+    "\u0410\u043a\u0438\u0440\u0430": {
+        "Position": 248,
+        "Year": 1988,
+        "Director": "Katsuhiro \u00d4tomo",
+        "Crew": "Mitsuo Iwata, Nozomu Sasaki",
+        "Rating": 8.0
+    },
+    "Fanny and Alexander": {
+        "Position": 249,
+        "Year": 1982,
+        "Director": "Ingmar Bergman",
+        "Crew": "Bertil Guve, Pernilla Allwin",
+        "Rating": 8.0
+    },
+    "Throne of Blood": {
+        "Position": 250,
+        "Year": 1957,
+        "Director": "Akira Kurosawa",
+        "Crew": "Toshir\u00f4 Mifune, Minoru Chiaki",
+        "Rating": 8.0
+    }
+}

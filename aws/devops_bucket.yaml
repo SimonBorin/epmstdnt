@@ -1,0 +1,14 @@
+{
+	"AWSTemplateFormatVersion" : "2010-09-09",
+	"Description" : "This is a basic template to create an S3 bucket",
+
+	"Resources" : {
+		"S3Bucket" : {
+			"Type" : "AWS::S3::Bucket",
+				"Properties" : {
+					"AccessControl" : "PublicRead",
+					"BucketName" : "devops-epam-30032020-ac21d522-72a4-11ea-bc55-0242ac130003"
+				}
+		}
+	}
+}

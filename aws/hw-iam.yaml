@@ -1,0 +1,53 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    6fb97883-6e44-415b-8831-06a1cb2d5509:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 20
+        'y': 60
+      z: 0
+      embeds: []
+    2b56fbc8-512f-4012-a69a-a14f5cdd8239:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 130
+        'y': 100
+      z: 0
+      embeds: []
+      dependson:
+        - 6fb97883-6e44-415b-8831-06a1cb2d5509
+    1e5bb4a6-8df1-4e7a-bf09-0145d69e136a:
+      source:
+        id: 2b56fbc8-512f-4012-a69a-a14f5cdd8239
+      target:
+        id: 6fb97883-6e44-415b-8831-06a1cb2d5509
+      z: 1
+Resources:
+  IAMG2MM1U:
+    Type: 'AWS::IAM::Group'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6fb97883-6e44-415b-8831-06a1cb2d5509
+    Properties:
+      GroupName: Administrators
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AdministratorAccess'
+  IAMU36PFH:
+    Type: 'AWS::IAM::User'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 2b56fbc8-512f-4012-a69a-a14f5cdd8239
+    DependsOn:
+      - IAMG2MM1U
+    Properties:
+      Groups:
+        - Administrators
+      LoginProfile:
+        Password: qWerty123
+        PasswordResetRequired: true
+      UserName: Administrator-test

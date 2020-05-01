@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    a9411fc9-e06f-495a-819b-f120d8d78a10:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 256.5
+        'y': 158
+      z: 0
+Resources:
+  S3B2P2MP:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: mynewbucket-borin-0de153ce-72ae-11ea-bc55-0242ac130003
+      PublicAccessBlockConfiguration: 
+        BlockPublicAcls: false
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a9411fc9-e06f-495a-819b-f120d8d78a10

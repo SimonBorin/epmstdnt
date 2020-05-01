@@ -1,0 +1,20 @@
+{
+	dozens[int($1/10)]++
+}; 
+END { 
+#get value of 100%
+	{
+		for (x=0;x<11;x++) total += dozens[x];
+	}
+	{
+		for (x=0;x<11;x++)  {
+			percent = 100*dozens[x]/total
+			if ( x == 10 ){
+                                printf " %3i:  %11.3f \t",x*10,percent;for (i=0;i<dozens[x];i++) printf"%s","*";printf"\n"
+                                }
+                        else {
+                                printf " %3i - %3i:  %3.3f \t",x*10,x*10+9,percent;for (i=0;i<dozens[x];i++) printf"%s","*";printf"\n"
+                        }
+		}
+	}
+}
