@@ -52,11 +52,6 @@ resource "aws_instance" "aws_hw_ec2" {
   subnet_id                   = aws_subnet.aws_hw_subnet1.id
   key_name                    = aws_key_pair.aws_hw_ssh.key_name
 
-#   provisioner "remote-exec" {
-#     inline = [
-#       "sudo yumupdate -y"
-#     ]
-#   }
   tags = {
     "Terraform" = "true"
     "Name"      = "Exercise 1"
