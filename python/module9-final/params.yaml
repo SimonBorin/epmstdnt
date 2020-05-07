@@ -1,0 +1,4 @@
+output_file_name: 'tag_log.json'
+#bucket_name: 'epam-devops-school-2020-python-module-final'
+max_log_size_mb: 0.015
+bucket_name: null
