@@ -3,16 +3,10 @@ provider "aws" {
   region  = "us-east-1"
 }
 
-variable "key_name" {
-    type    = string
-    default = "my-key"
-}
-
 resource "aws_security_group" "aws_hw_sg" {
   name        = "Cert_Book"
   description = "Allow ssh from my laptop"
    vpc_id     = aws_vpc.aws_hw_vpc.id
-
 
   ingress {
     description = "ssh allow"

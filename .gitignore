@@ -1,3 +1,4 @@
+*.pem
 *.txt
 sub.sh
 lib.sh
