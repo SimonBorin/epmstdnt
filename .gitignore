@@ -7,6 +7,8 @@ lib.sh
 *.log
 .pytest_cache/
 _MAC
+.project
+.settings/
 ### Terraform ###
 # Local .terraform directories
 **/.terraform/*
