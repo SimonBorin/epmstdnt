@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk
+USER root
+COPY message-processor/target/message-processor-1.0-SNAPSHOT.jar message-processor.jar
+COPY message-processor/etc/config.properties config.properties
+ENTRYPOINT  ["java","-jar","message-processor.jar", "config.properties"]

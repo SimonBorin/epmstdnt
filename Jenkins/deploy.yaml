@@ -1,0 +1,57 @@
+---
+- hosts: localhost
+  gather_facts: false
+  vars_files:
+    - vault
+
+  tasks:
+    - name: clear server
+      docker_prune:
+        containers: yes
+        containers_filters:
+          until: 48h
+        images: yes
+        images_filters:
+          dangling: false
+        networks: yes
+        volumes: yes
+        builder_cache: yes
+
+    - name: Create docker network
+      docker_network:
+        name: "{{ network }}"
+
+    - name: remove a container
+      docker_container:
+        name: "{{ item }}"
+        state: absent
+      loop:
+        - '{{ processor_comtainer_name }}'
+        - '{{ gateway_comtainer_name }}'
+    
+    - name: Build an image 
+      docker_image:
+        build:
+          path: ./
+          dockerfile: "{{ item.dockerfile }}"
+        name: "{{ item.name }}:{{ tag }}"
+        push: no
+        source: build  
+      loop:
+        - { dockerfile: '{{ processor_dockerfile }}', name: '{{ processor_image }}' }
+        - { dockerfile: '{{ gateway_dockerfile }}', name: '{{ gateway_image }}' }
+    
+    - name: start a container
+      docker_container:
+        name: "{{ item.name }}"
+        image: "{{ item.image }}:{{ tag }}"
+        pull: no
+        purge_networks: yes
+        networks:
+          - name: "{{ network }}"
+        ports:
+          - "{{ item.out_port }}:{{ item.in_port }}"
+        restart_policy: always
+      loop:
+        - { name: '{{ processor_comtainer_name }}', image: '{{ processor_image }}', out_port: '{{ processor_out_port }}', in_port: '{{ processor_in_port }}'}
+        - { name: '{{ gateway_comtainer_name }}', image: '{{ gateway_image }}', out_port: '{{ gateway_out_port }}', in_port: '{{ gateway_in_port }}' }

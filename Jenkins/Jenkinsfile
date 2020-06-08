@@ -1,0 +1,65 @@
+#!/usr/bin/env groovy
+
+node('jenkins-slave-docker') {
+    def tag = "${BRANCH_NAME}_${BUILD_ID}"
+    def jdk = docker.image('maven:3.6.3-openjdk-8')
+    def java = docker.image('openjdk:8-jdk')
+    stage('git pull app') {
+        git([
+            url: 'git@gitlab.com:SimonBorin/jenkins-course-0520-app.git',
+            branch: "borin",
+            credentialsId: "GitLabSimonBorin"
+        ])
+        stash includes: 'message-processor/etc/config.properties', name: 'config.properties'
+    }
+    def server = Artifactory.server 'boring-artifactory'
+    def rtMaven = Artifactory.newMavenBuild()
+    stage('build') {
+        rtMaven.resolver server: server, releaseRepo: 'libs-release', snapshotRepo: 'libs-snapshot'
+        rtMaven.deployer server: server, releaseRepo: 'libs-release', snapshotRepo: 'libs-snapshot'
+        jdk.inside{
+            env.MAVEN_HOME = '/usr/share/maven'
+            env.JAVA_HOME = '/usr/local/openjdk-8'
+            def buildInfo = rtMaven.run pom: 'pom.xml', goals: 'clean package' // sonar:sonar
+            server.publishBuildInfo buildInfo
+        }
+    }
+    stage('deploy') {
+        ansiblePlaybook(
+            playbook: "${workspace}/deploy.yaml",
+            inventory: "${workspace}/hosts.yaml",
+            vaultCredentialsId: 'vault_pass',
+            colorized: true,
+            extraVars: [
+                tag: tag,
+                path: workspace
+            ]
+        )
+
+    }
+    // dir('build') {
+    //     stage('git clone') {
+    //         git([
+    //             url: 'git@gitlab.com:SimonBorin/jenkins-course-0520.git',
+    //             branch: "${env.BRANCH_NAME}",
+    //             credentialsId: "GitLabSimonBorin"
+    //         ])
+    //     }
+    //     stage('MVN try') {
+	// 	    withEnv(["PATH+MVN=${tool 'boring-maven'}/bin"]) {
+	// 		    sh 'mvn clean test'
+	// 		}c
+	// 	}
+	// 	stage('Publish JUnit tests results') {
+    //         junit([allowEmptyResults: true,
+    //         testResults: 'target/surefire-reports/TEST-io.jenkins.pipeline.sample.TestJenkinsfile.xml'])
+    //     }
+    //     stage('Archive selected artefacts') {
+    //         archiveArtifacts([
+    //             artifacts: 'target/surefire-reports/TEST-io.jenkins.pipeline.sample.TestJenkinsfile.xml',
+    //             followSymlinks: false,
+    //             fingerprint: true
+    //         ])
+    //     }
+	// }
+}

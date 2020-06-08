@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+host={{ artifactory_server }}
+username={{ vault_artifactory_user}}
+password={{ vault_artifactory_pass }}
+cd /tmp
+resultAsJson=$(curl -u$username:"$password" -X POST $host/artifactory/api/search/aql -H "content-type: text/plain" -d 'items.find({ "repo": {"$eq":"{{ repo_name }}"}, "name": {"$match" : "message-processor*"}})')
+latestFile=$(echo $resultAsJson | jq -r '.results | sort_by(.updated) [-1].name')
+wget -N -P ./libs/ --user $username --password $password $host/artifactory/libs-snapshot/message-processor/message-processor/1.0-SNAPSHOT/$latestFile
+resultAsJson=$(curl -u$username:"$password" -X POST $host/artifactory/api/search/aql -H "content-type: text/plain" -d 'items.find({ "repo": {"$eq":"{{ repo_name }}"}, "name": {"$match" : "message-gateway*"}})')
+latestFile=$(echo $resultAsJson | jq -r '.results | sort_by(.updated) [-1].name')
+wget -N -P ./libs/ --user $username --password $password $host/artifactory/libs-snapshot/messaging-gateway/message-gateway/1.0-SNAPSHOT/$latestFile
+unset username
+unset password
